@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "id": "12345678-1234-1234-1234-123456789012",
+  "packageName": "com.hagler.invoicedecision",
+  "version": "1.0.0",
+  "name": {
+    "short": "Invoice Decision",
+    "full": "Can I Invoice the Customer? — Hagler Process"
+  },
+  "description": {
+    "short": "Decision guide for when to invoice customers",
+    "full": "An interactive decision tree to help the bookkeeper determine when invoicing the customer is appropriate based on vendor invoices, PO status, item receipt, and pick tickets."
+  },
+  "icons": {
+    "outline": "https://raw.githubusercontent.com/yourusername/invoice-decision/main/icon-outline.png",
+    "color": "https://raw.githubusercontent.com/yourusername/invoice-decision/main/icon-color.png"
+  },
+  "accentColor": "#2D3A50",
+  "staticTabs": [
+    {
+      "entityId": "invoiceDecision",
+      "name": "Invoice Decision",
+      "contentUrl": "https://yourusername.github.io/invoice-decision/index.html",
+      "websiteUrl": "https://yourusername.github.io/invoice-decision/index.html",
+      "scopes": [
+        "personal",
+        "team",
+        "groupChat"
+      ]
+    }
+  ],
+  "validDomains": [
+    "yourusername.github.io"
+  ],
+  "author": {
+    "name": "Hagler Process",
+    "email": "your-email@example.com"
+  },
+  "developer": {
+    "name": "Hagler Process",
+    "website": "https://yourcompanywebsite.com",
+    "privacyUrl": "https://yourcompanywebsite.com/privacy",
+    "termsOfUseUrl": "https://yourcompanywebsite.com/terms"
+  }
+}
